@@ -1,7 +1,9 @@
-@font-face {
-  font-family: Hanken-Grotesk;
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+/* @font-face {
+  font-family: Hanken Grotesk;
   src: url("/assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
-}
+} */
 
 :root {
   --Light-red: hsl(0, 100%, 67%);
@@ -102,7 +104,7 @@ h6 {
   overflow-wrap: break-word;
 }
 body {
-  font-family: Hanken-Grotesk;
+  font-family: Hanken Grotesk;
   background-color: var(--Pale-blue);
   color: var(--Light-lavender);
   display: grid;
